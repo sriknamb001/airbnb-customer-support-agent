@@ -1,9 +1,9 @@
-🤖 Airbnb Co-Host AI (Telegram Agent)
+# 🤖 Airbnb Co-Host AI (Telegram Agent)
 
-Description:
+## Description:
 Built an intelligent AI agent that acts as a 24/7 co-host for Airbnb guests via Telegram. The agent handles common guest questions using real-time conversation, memory, and custom tools — reducing the burden on hosts and improving guest experience.
 
-Highlights:
+## Highlights:
 
 🧠 Multi-turn AI Agent: Remembers prior messages and maintains context across questions (e.g., “What time is check-in?” → “Can I arrive earlier?”).
 🛠 Tool-Using Design: Agent uses custom functions to answer dynamic queries like check-in times, Wi-Fi passwords, and local recommendations.
