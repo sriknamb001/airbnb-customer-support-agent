@@ -1,0 +1,44 @@
+{
+  "property_name": "Downtown Urban Loft",
+  "address": "55 Mission St, San Francisco, CA 94105",
+  "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "zip": "94105",
+    "country": "USA",
+    "latitude": 37.7894,
+    "longitude": -122.3942,
+    "timezone": "America/Los_Angeles"
+  },
+  "wifi_pass": "urbanloft789",
+  "check_in_time": "2:00 PM",
+  "check_out_time": "12:00 PM",
+  "parking": "Paid parking garage next door at 60 Mission St. No street parking.",
+  "contact_number": "+1 (555) 222-3344",
+  "local_recs": [
+    "Cafe Lumière",
+    "ArtHaus Gallery",
+    "Ferry Building Marketplace",
+    "Night Owl Jazz Club"
+  ],
+  "amenities": [
+    "High-speed Wi-Fi",
+    "Sonos speaker system",
+    "Espresso machine",
+    "Work desk and monitor",
+    "Balcony with skyline view"
+  ],
+  "rules": [
+    "No parties or events",
+    "Quiet hours: 9 PM – 7 AM",
+    "Do not buzz in strangers"
+  ],
+  "trash_info": "Trash chute is at the end of the hallway. Recycling in the garage.",
+  "checkout_instructions": "Wash used dishes, close all windows, return fob to the table.",
+  "emergency_info": {
+    "nearest_hospital": "UCSF Medical Center",
+    "fire_extinguisher_location": "Next to the fridge",
+    "emergency_number": "911"
+  },
+  "property_notes": "Elevator may be slow—stairs are usually faster."
+}

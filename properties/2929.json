@@ -1,0 +1,45 @@
+{
+  "property_name": "Beachfront Apartment",
+  "address": "123 Oceanview Dr, San Diego, CA 92101",
+  "location": {
+    "city": "San Diego",
+    "state": "CA",
+    "zip": "92101",
+    "country": "USA",
+    "latitude": 32.7157,
+    "longitude": -117.1611,
+    "timezone": "America/Los_Angeles"
+  },
+  "wifi_pass": "beachvibes123",
+  "check_in_time": "3:00 PM",
+  "check_out_time": "11:00 AM",
+  "parking": "1 reserved spot in underground garage. Street parking also available.",
+  "contact_number": "+1 (555) 123-4567",
+  "local_recs": [
+    "The Bungalow Beach Bar",
+    "La Jolla Cove",
+    "Sunset Surf Café",
+    "Ocean Walk Boardwalk"
+  ],
+  "amenities": [
+    "Washer/Dryer",
+    "AC/Heating",
+    "Smart TV with Netflix",
+    "Fully-equipped kitchen",
+    "Surfboards in closet"
+  ],
+  "rules": [
+    "No smoking",
+    "No pets",
+    "Quiet hours: 10 PM – 8 AM",
+    "No parties or events"
+  ],
+  "trash_info": "Trash bins are located in the alley behind the building. Pickup is Monday and Thursday mornings.",
+  "checkout_instructions": "Please load dishwasher, take out trash, and leave key in lockbox.",
+  "emergency_info": {
+    "nearest_hospital": "Scripps Memorial Hospital – 15 min drive",
+    "fire_extinguisher_location": "Under the kitchen sink",
+    "emergency_number": "911"
+  },
+  "property_notes": "Please rinse off sand before entering. Keep balcony doors closed when AC is on."
+}

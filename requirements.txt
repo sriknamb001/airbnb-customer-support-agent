@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+requests
+python-dotenv
+
+# LangChain and tools
+langchain
+chromadb
+sentence-transformers
+
+# Hugging Face support
+huggingface_hub
+transformers
+accelerate
+
+# Telegram not required (you’re using HTTP calls)

@@ -1,0 +1,44 @@
+{
+  "property_name": "Evergreen Ridge Cabin",
+  "address": "88 Pinecone Trail, Lake Tahoe, CA 96150",
+  "location": {
+    "city": "South Lake Tahoe",
+    "state": "CA",
+    "zip": "96150",
+    "country": "USA",
+    "latitude": 38.9399,
+    "longitude": -119.9772,
+    "timezone": "America/Los_Angeles"
+  },
+  "wifi_pass": "pinecones456",
+  "check_in_time": "4:00 PM",
+  "check_out_time": "10:00 AM",
+  "parking": "Driveway fits 2 cars. Snow shovels provided in winter.",
+  "contact_number": "+1 (555) 987-6543",
+  "local_recs": [
+    "Alpine Trailhead",
+    "The Log Diner",
+    "Mountain Hot Springs",
+    "Ridgeview Lookout"
+  ],
+  "amenities": [
+    "Fireplace",
+    "Board games",
+    "Grill on patio",
+    "Washer/Dryer",
+    "Coffee grinder and French press"
+  ],
+  "rules": [
+    "No smoking indoors",
+    "No loud music after 9 PM",
+    "Do not feed the wildlife"
+  ],
+  "trash_info": "Trash must be bagged and placed in bear-proof bins outside.",
+  "checkout_instructions": "Turn off heater, clean fireplace, leave keys inside on the dining table.",
+  "emergency_info": {
+    "nearest_hospital": "Barton Memorial Hospital",
+    "fire_extinguisher_location": "Hallway closet",
+    "emergency_number": "911"
+  },
+  "property_notes": "Firewood stored under the deck. Snow chains required after October."
+}
