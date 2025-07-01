@@ -1,26 +1,50 @@
-# 🤖 Airbnb Co-Host AI (Telegram Agent)
+# 🏡 Airbnb Concierge Bot
 
-## Description:
+**AI-powered Telegram bot** that acts as a smart Airbnb concierge. It answers guest questions using a memory-aware, tool-using agent powered by OpenAI and LangChain, with Retrieval-Augmented Generation (RAG) over custom property data.
 
-Built an intelligent AI agent that acts as a 24/7 co-host for Airbnb guests via Telegram. The agent handles common guest questions using real-time conversation, memory, and custom tools — reducing the burden on hosts and improving guest experience.
+---
 
-## Highlights:
+## 🧠 How It Works
 
-🧠 Multi-turn AI Agent: Remembers prior messages and maintains context across questions (e.g., “What time is check-in?” → “Can I arrive earlier?”).
-🛠 Tool-Using Design: Agent uses custom functions to answer dynamic queries like check-in times, Wi-Fi passwords, and local recommendations.
-💬 Telegram Bot Interface: Live, free, and public — accessible via a shareable Telegram bot link for easy demo and user interaction.
-⚡ Fast + Affordable LLMs: Uses Claude 3 Haiku via OpenRouter (free tier) or open models via Hugging Face for intelligent, cost-free responses.
-🔌 Modular Backend: Built with FastAPI and plug-and-play support for additional tools like availability lookups or personalized responses per listing.
-Example Use Cases:
+1. **Telegram Bot Frontend**  
+   Guests interact with the bot directly via Telegram.
 
-“Can I check in early?”
-“Do you have Wi-Fi?”
-“What’s a good coffee shop nearby?”
-“Where can I park?”
-Stack:
+2. **Agentic AI Backend**  
+   Powered by **LangChain + LangGraph**, the bot uses an LLM-driven agent with tool capabilities:
 
-Telegram Bot API
-FastAPI (Python)
-Claude 3 Haiku via OpenRouter / Hugging Face
-Custom tool functions (Python-based)
-Optional: Supabase for persistence, Vercel / Fly.io for hosting
+   - 🔍 **RAG** via ChromaDB for fetching relevant context from property-specific documents
+   - 🛠️ Tool-calling for handling structured data lookups
+
+3. **Scoped Knowledge per Property**  
+   Each Airbnb listing has its own JSON file with property-specific details (check-in, Wi-Fi, parking, etc).
+
+4. **FastAPI Server**  
+   Handles webhook communication and request routing.
+
+---
+
+## 💡 Features
+
+- ✅ Answers detailed guest questions using RAG + memory
+- ✅ Multi-turn, context-aware conversations
+- ✅ Handles multiple listings with scoped knowledge
+- ✅ Pluggable JSON data for quick property updates
+- ✅ Works via any Telegram account
+
+---
+
+## 🔧 Tech Stack
+
+| Tech             | Purpose                         |
+| ---------------- | ------------------------------- |
+| FastAPI          | Backend server                  |
+| Telegram Bot API | Guest messaging interface       |
+| LangChain        | Agent + tool orchestration      |
+| LangGraph        | Multi-turn agent state handling |
+| ChromaDB         | Vector database for RAG         |
+| OpenAI API       | LLM completions                 |
+| dotenv           | Environment variable management |
+
+---
+
+## 📂 Project Structure
